@@ -10,3 +10,4 @@ services:
       - '40000:40000'
     volumes:
       - ./config:/config:ro
+      - ./logs:/logs:rw

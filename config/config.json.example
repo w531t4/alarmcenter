@@ -7,5 +7,5 @@
     },
  "alarm_listen_port": 40000,
  "alarm_max_msgsize": 1024,
- "alarm_logfile_path": "/var/log/dahua.log"
+ "alarm_logfile_path": "/logs/dahua.log"
 }
