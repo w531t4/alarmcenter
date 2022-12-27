@@ -27,7 +27,7 @@ for k, v in config['cameras'].items():
     camera_ips.append(v)
 
 listen_port = config['alarm_listen_port']
-logfile = config['alarm_logfile']
+logfile = config['alarm_logfile_path']
 
 try:
     log = open(logfile, 'a')
