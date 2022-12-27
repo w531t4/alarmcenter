@@ -1,0 +1,11 @@
+{"redis_server_ip": "10.0.0.1",
+ "redis_server_port": 6379,
+ "redis_channel": "notifications",
+ "cameras": {
+    "camera_name_1": "10.9.0.2",
+    "camera_name_2": "10.9.0.3"
+    },
+ "alarm_listen_port": 40000,
+ "alarm_max_msgsize": 1024,
+ "alarm_logfile_path": "/var/log/dahua.log"
+}
