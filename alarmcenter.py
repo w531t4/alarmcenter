@@ -86,7 +86,6 @@ def main():
     config = json.loads(Path(sys.argv[1]).read_text())
 
     try:
-        print(config["alarm_logfile_path"])
         log = open(config['alarm_logfile_path'], 'a')
     except:
         print("Can't open alarmlog file (%s). exiting" % config['alarm_logfile_path'])
