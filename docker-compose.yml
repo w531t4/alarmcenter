@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  alarmcenter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alarmcenter
+    restart: always
+    ports:
+      - '40000:40000'
+    volumes:
+      - ./config:/config:ro
