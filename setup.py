@@ -13,7 +13,7 @@ setup(
                       ],
     entry_points = {
         'console_scripts': ['alarmcenter=alarmcenter.command_line:main'],
-    }
+    },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: End Users/Desktop',
