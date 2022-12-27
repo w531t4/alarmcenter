@@ -1,4 +1,5 @@
-import alarmcenter
+from alarmcenter import alarmcenter
 
 def main():
+
     alarmcenter.main()
